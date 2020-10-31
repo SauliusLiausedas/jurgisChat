@@ -20,6 +20,7 @@ class JurgisTest extends TestCase
 
     public function testStatingSomething()
     {
+        
         $this->assertEquals("Aha gerai.", $this->jurgis->responds("Kaip šiandien smagu!"));
     }
 
