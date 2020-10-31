@@ -5,4 +5,4 @@ require '../vendor/autoload.php';
 
 $jurgis = new Jurgis();
 
-echo $jurgis->responds('Labas'); 
+echo $jurgis->responds("1, 2, 3 STARTAS!"); 
