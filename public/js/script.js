@@ -9,11 +9,11 @@ function bindEventListeners () {
     const messageInput = document.getElementById('messageInput')
 
     messageSubmit.addEventListener('click', () => {
-        messageInput.value ? sendMessage(messageInput.value) : ''
+        messageInput ? sendMessage(messageInput.value) : ''
     })
 
     messageInput.addEventListener('keydown', (e) => {
-        if (e.key === 'Enter' && e?.target?.value) {
+        if (e.key === 'Enter') {
             sendMessage(e.target.value)
         }
     })

@@ -29,7 +29,7 @@ if (isset($_GET['userMessage'])) {
     <div class="chatbox">
         <div id="chatMessages"></div>
         <div class="chatInputs">
-            <input type="text" id="messageInput" />
+            <input type="text" id="messageInput" autocomplete />
             <button id="messageSubmit"> Siųsti </button>
         </div>
     </div>
