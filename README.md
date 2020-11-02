@@ -10,6 +10,7 @@ Jurgis atsako:
 #### Paleidimas
 * `composer install --dev`
 * testai paleidžiami komanda `./vendor/bin/phpunit tests`
+* `vendor/bin/doctrine orm:schema-tool:create`
 
 #### Instrukcija
 
