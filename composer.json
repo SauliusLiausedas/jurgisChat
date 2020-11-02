@@ -3,6 +3,9 @@
     "autoload": {
         "psr-4": {
             "App\\": "src/"
+        },
+        "psr-0": {
+            "": "src/"
         }
     },
     "require-dev": {
@@ -14,5 +17,9 @@
             "email": "irmantas.siupsinskas@zmones.lt"
         }
     ],
-    "require": {}
+    "require": {
+        "doctrine/orm": "^2.7",
+        "ext-pdo_sqlite": "^7.4",
+        "symfony/yaml": "^5.1"
+    }
 }

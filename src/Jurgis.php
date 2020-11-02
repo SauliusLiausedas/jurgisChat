@@ -60,7 +60,6 @@ class Jurgis
 
     private function checkQuestion(string $message): bool
     {
-        echo substr($message, -1) === '?';
         if (substr($message, -1) === '?') {
             return true;
         }
